@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Ubuntu&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.cent{
+    text-align: center;
+    padding: 5%;
+}
+
+.styling{
+    color: #ef8172;
+    font-size: 60px;
+    margin: 5% auto;
+
+}
+.styling:hover{
+    color: #ff4c68;
+}
+
+h2{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* .more{
+    margin: 4% 0;
+} */
+
+h3{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.para{
+    color: #8f8f8f;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download{
+    margin: 3% 5% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.test-pic{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+    /* press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* footer section */
+#cta{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+}
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.foot-icon{
+    padding: 3% 1%;
+    color: #000;
+}
+
+@media (max-width:990px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
